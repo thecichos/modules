@@ -1,0 +1,8 @@
+{
+    "name": "build",
+    "version": "0.0.1",
+    "main_file": "load.php",
+    "files": ["header.php", "footer.php", "leftContainer"],
+    "folder_css": ["_main.css"],
+    "made_by": "Jonas Nielsen"
+}
