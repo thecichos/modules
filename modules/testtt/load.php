@@ -9,14 +9,16 @@ if (file_exists("config.json") === true) {
       $rr .= $file;
       file_put_contents("loaded.json", $rr);
   }
+} else {
+  array_push($warn, __DIR__);
 }
-// $dir = scandir(__DIR__);
-// for ($i=0; $i < count($dir); $i++) {
-//   if (strpos($dir[$i], ".php") == true) {
-//     if (strpos($dir[$i], "load.php") === false) {
-//       include $dir[$i];
-//     }
-//   }
-// }
+$dir = scandir(__DIR__);
+for ($i=0; $i < count($dir); $i++) {
+  if (strpos($dir[$i], ".php") == true) {
+    if (strpos($dir[$i], "load.php") === false) {
+      include $dir[$i];
+    }
+  }
+}
 
  ?>

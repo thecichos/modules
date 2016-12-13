@@ -10,7 +10,7 @@ if (file_exists("config.json") === true) {
       file_put_contents("loaded.json", $rr);
   }
 } else {
-  echo "false";
+  array_push($warn, __DIR__);
 }
 $dir = scandir(__DIR__);
 for ($i=0; $i < count($dir); $i++) {

@@ -1,6 +1,8 @@
 <?php
+
 $dirs = scandir("modules");
 chdir("modules");
+include 'warning.php';
 $dirs = array_filter(glob('*'), 'is_dir');
   if (strpos(file_get_contents("loaded.json"), "////do not remove////") === false) {
     file_put_contents("loaded.json", "////do not remove////");
@@ -15,6 +17,5 @@ $dirs = array_filter(glob('*'), 'is_dir');
           }
       }
     }
-
   }
  ?>
