@@ -1,4 +1,4 @@
-/*html, body {
+html, body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -7,7 +7,7 @@
   height: 60px;
   width: 100%;
   margin: 0;
-  background-color: blue;
+  background-color: white;
   position: absolute;
   top: 0;
 }
@@ -15,10 +15,7 @@
   height: 60px;
   width: 100%;
   margin: 0;
-  background: blue;
+  background: white;
   position: absolute;
   bottom: 0px;
 }
-#leftContainer {
-
-}*/
