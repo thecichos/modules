@@ -1,5 +1,5 @@
 {
-  "name": "show modules",
+  "name": "showModules",
   "version": "0.0.0",
   "files" : ["main.php"],
   "made_by": "Jonas Nielsen"

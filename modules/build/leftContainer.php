@@ -3,7 +3,7 @@
   $(document).ready(function() {
     $("#leftContainer").css({
       "height": $("body").height() - ($("#footer").height() + $("#header").height()),
-      "width" : ($("body").width() / 100) * 12,
+      "width" : ($("body").width() / 100) * 16,
       "position": "absolute",
       "top": $('#header').height()
     })

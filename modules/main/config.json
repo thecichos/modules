@@ -1,7 +1,7 @@
 {
-  "name": "newModule",
+  "name": "main",
   "version": "0.0.1",
   "main_file": "load.php",
-  "files": ["newModule"],
+  "files": ["newModule.php"],
   "made_by": "Jonas Nielsen"
 }
